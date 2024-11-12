@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+    <head>
+        <title>PayPal</title>
+        <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+        <style>
+            h2{
+                font-family: PayPalOpen-Regular,Helvetica Neue,Arial,sans-serif;
+            }
+            #sopra{
+                height: 5vw;
+                width: 100%;
+                margin-top: 0;
+                margin-left: 0;
+                margin-right: 0;
+                background-color: rgb(28, 28, 150);
+                position: fixed;
+            }
+            body{
+                margin: 0;
+            }
+            h1{
+                font-family: PayPalOpen-Regular,Helvetica Neue,Arial,sans-serif;
+            }
+            #sottodue{
+                position: absolute;
+                width: 100%;
+                height: 5.5vw;
+                border: 4px solid rgb(245, 245, 245);
+                background-color: rgb(255, 255, 255);
+                margin-top: 43.5vw;
+                z-index: 999;
+            }
+            p{
+                font-family: PayPalOpen-Regular,"Helvetica Neue",Arial,sans-serif;
+                font-size: 0.875rem;
+                line-height: 1.25rem;
+                font-weight: 400;
+                color: #797979;
+                margin-left: 18vw;
+                margin-top: 2vw;
+            }
+            h3{
+                font-family: PayPalOpen-Regular,"Helvetica Neue",Arial,sans-serif;
+                font-size: 0.875rem;
+                line-height: 1.25rem;
+                font-weight: 400;
+                color: #797979;
+
+                margin-top: -1.75vw;
+                font-family: PayPalOpen-Regular,"Helvetica Neue",Arial,sans-serif;
+
+            }
+            #sottouno{
+                position: absolute;
+                width: 100%;
+                height: 6.5vw;
+                border: 4px solid rgb(245, 245, 245);
+                background-color: rgb(255, 255, 255);
+                margin-top: 36.85vw;
+                z-index: 999;
+            }
+            #mezzo{
+                width: 100%;
+                height: 32vw;
+                background-color: #ffffff;
+                margin-top: 5vw;
+                position: absolute;
+                z-index: 0;
+            }
+            #start{
+                border: 1px solid #dbdbdb;
+                width: 28vw;
+                height: 15vw;
+                border-radius: 0.875rem;
+                margin-left: 35vw;
+                margin-top: 2vw;
+
+            }
+        </style>
+    </head>
+    <body>
+        <img id="sopra" src="updeckie.png">
+        <div id="mezzo">
+            <div id="start">
+                <img src="persona.png" style="position: absolute; z-index: 0;">
+                <input  style="outline: none; border: none; margin-top: 5vw;margin-left: 3vw ; width: 12vw; height: 5vw;font-size: 2.2vw;">
+                <img src="eur.png" style="margin-left: 4.5vw; margin-bottom: -10px;">
+                <br>
+                <input placeholder="A cosa serve?" style=" padding-left: 15px;width: 22vw; height: 3vw; position: absolute; margin-left: 3vw; border-radius: 0.5vw; border: 1px solid #ddd; outline: none;"">
+           </div>
+            <center style="margin-top: 1vw; font-family: var(--_5zd9lo6p), Helvetica Neue, Arial, sans-serif">Per maggiori informazioni, vedi le <span style="color: rgb(0, 110, 255);">Condizioni d'uso PayPal.</span></center>
+            <button style="margin-top: 1.5vw;margin-left: 40vw;width: 20vw; height: 2.5vw; border-radius: 2vw; border: 0; color: #ffffff ;background-color: rgb(2, 76, 172); font-size: 0.75vw;" onclick="vai()">Avanti</button>
+            <br>
+            <br>
+            <a style="font-family: Helvetica Neue, Arial, sans-serif ;color: rgb(45, 131, 201);margin-left: 48.5vw; text-decoration-line: underline;">Annulla</a>
+        </div>
+        <div id="sottouno">
+            <img style="width: 6vw; height: 5vw; margin-top: 1vw; margin-left: 18vw;" src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-color.svg">
+            
+            <h2 style="margin-top: -3.45vw; margin-left: 28vw ;">Aiuto</h2>
+            <h2 style="margin-top: -2.50vw; margin-left: 32vw ;">Contattaci</h2>
+            <h2 style="margin-top: -2.50vw; margin-left: 40vw ;">Sicurezza</h2>
+
+       </div>
+        <div id="sottodue">
+            <p>©1999-2024 PayPal. Tutti i diritti riservati Privacy</p>
+            <h3 style="margin-left: 37vw;">Privacy</h3>
+            <h3 style="margin-left: 42vw;">Cookie</h3>
+            <h3 style="margin-left: 46vw;">Accordi legali</h3>
+            <h3 style="margin-left: 52vw;">Reclami</h3>
+        </div>
+    </body>
+</html>
+<script>
+    function vai(){
+        window.location.href = "scammer2.html"
+    }
+</script>
